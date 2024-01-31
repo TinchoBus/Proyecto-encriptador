@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encriptador de Textos</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="encriptador.css">
+  <script defer src="encriptador.js"></script>
+  <script defer src="js/app2.js"></script>
+</head>
+
+<body>
+<div class="contenedor">
+
+  <header class="cabecero">
+    <img src="Imagenes/enigma-palabra.jpg" alt="Logo del creador" class="imagen__logo">
+    <h3 class="titulo"><strong> Bienvenidos a Enigma, encriptador de textos </strong> </h3>
+  </header>
+
+  <main class="principal">
+    <textarea name="textoaencriptar" id="textoEncriptar" cols="30" rows="10" onfocus="ocultarimagen()"></textarea>
+    
+
+    <label for="textoEncriptar" class="advertencia"> ╳Recuerda no incluir texto con acéntos o carácteres especiales</label>
+    <input type="button" value="Encriptar" class="btn" id="encriptar" onclick="encriptar()">
+    <input type="button" value="Desencriptar" class="btn" id="desencriptar" onclick="desencriptar()">
+  </main>
+
+  <aside class="barra__derecha">
+    <textarea name="textoDesencriptado" id="textoDesencriptado" cols="28" rows="10"></textarea>
+    <input type="button" value="Copiar texto" class="btn" id="copiarTexto" onclick="copiarTexto()">
+  </aside>
+</div>
+<footer class="pie__pagina">
+  <h4> <strong> Página desarrollada por Tupac's Enterprise </strong></h4>
+  <p>&copy; <strong> Copyright 2024 </strong></p>
+  <img src="Imagenes/enigma-palabra.jpg" alt="Logo del creador" class="imagen__logo">
+  
+</footer>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:azure;
+}
+
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+.cabecero {
+    width: 100%;
+    height: 140px;
+    background: radial-gradient(black,orange);
+    padding:10px 20px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 8px;
+}
+
+.imagen__logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    filter: drop-shadow(3px 3px 20px black);
+
+}
+
+.titulo {
+    color: #FFFFFF;
+    font-size: 48px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 20px;
+    text-shadow:2px 2px black;
+    text-align: left;
+}
+
+.principal {
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.advertencia {
+    color: blue;
+    transition: 0.3s all;
+}
+
+.advertencia:hover {
+    color: #000000;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.barra__derecha {
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+#textoDesencriptado {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 1.05rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 2px orangered;
+    outline-color: blue;
+    padding: 10px;
+    font-family: 'Concert One', sans-serif;
+}
+
+#textoEncriptar {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 1.05rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 2px orangered;
+    outline-color: blue;
+    padding: 10px;
+    font-family: 'Concert One', sans-serif;
+}
+
+.ingresatexto{
+  position: absolute;
+  top:80px;
+  left: 180px;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+.btn {
+    width: 30%;
+  border: 2px solid darkcyan;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Concert One', sans-serif;
+  padding: 10px 0px;
+  border-radius: 5px;
+  margin: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.pie__pagina {
+    clear: left;
+    width: 100%;
+    height: 130px;
+    background: radial-gradient(black,orange);
+    padding: 50px 50px;
+    text-align: center;
+    color:rgb(209, 209, 212);
+}
+@media screen and (min-width: 720px) and (max-width: 768px){
+.contenedor{
+    width: 700px;
+    text-align: center;
+  }
+  .cabecero{
+    width: 100%;
+    height: 180px;
+  }
+  .barra__derecha{
+    clear: left;
+    width: 100%;
+  }
+  .ingresatexto{
+    display: none;
+  }
+  .principal{
+    width: 100%;
+  }
+  .advertencia{
+    font-size: 0.8rem;
+    display: block;
+  }
+  .btn{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 390px){
+  .contenedor{
+    width: 360px;
+    text-align: center;
+  }
+  .cabecero{
+    width: 100%;
+    height: 180px;
+  }
+  .barra__derecha{
+    clear: left;
+    width: 100%;
+  }
+  .ingresatexto{
+    display: none;
+  }
+  .principal{
+    width: 100%;
+  }
+  .advertencia{
+    font-size: 0.8rem;
+    display: block;
+  }
+  .btn{
+    font-size: 0.7rem;
+  }
+}
