@@ -34,7 +34,7 @@ body {
 
 .titulo {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 26px;
     display: inline-block;
     height: 100%;
     vertical-align: middle;
@@ -106,7 +106,7 @@ body {
   object-fit: contain;
 }
 .btn {
-    width: 30%;
+  width: 30%;
   border: 2px solid darkcyan;
   background-color: transparent;
   text-transform: uppercase;
@@ -126,63 +126,69 @@ body {
 .pie__pagina {
     clear: left;
     width: 100%;
-    height: 130px;
+    height: 250px;
     background: radial-gradient(black,orange);
-    padding: 50px 50px;
+    padding: 20px;
     text-align: center;
     color:rgb(209, 209, 212);
 }
+
+.imagen_logo{
+  height: 50px
+
+}
+
 @media screen and (min-width: 720px) and (max-width: 768px){
-.contenedor{
-    width: 700px;
-    text-align: center;
-  }
-  .cabecero{
-    width: 100%;
-    height: 180px;
-  }
-  .barra__derecha{
-    clear: left;
-    width: 100%;
-  }
-  .ingresatexto{
-    display: none;
-  }
-  .principal{
-    width: 100%;
-  }
-  .advertencia{
-    font-size: 0.8rem;
-    display: block;
-  }
-  .btn{
-    font-size: 0.7rem;
-  }
-}
-@media screen and (max-width: 390px){
   .contenedor{
-    width: 360px;
-    text-align: center;
+      width: 700px;
+      text-align: center;
+    }
+    .cabecero{
+      width: 100%;
+      height: 180px;
+    }
+    .barra__derecha{
+      clear: left;
+      width: 100%;
+    }
+    .ingresatexto{
+      display: none;
+    }
+    .principal{
+      width: 100%;
+    }
+    .advertencia{
+      font-size: 0.8rem;
+      display: block;
+    }
+    .btn{
+      font-size: 0.7rem;
+    }
   }
-  .cabecero{
-    width: 100%;
-    height: 180px;
+  @media screen and (max-width: 390px){
+    .contenedor{
+      width: 360px;
+      text-align: center;
+    }
+    .cabecero{
+      width: 100%;
+      height: 180px;
+    }
+    .barra__derecha{
+      clear: left;
+      width: 100%;
+    }
+    .ingresatexto{
+      display: none;
+    }
+    .principal{
+      width: 100%;
+    }
+    .advertencia{
+      font-size: 0.8rem;
+      display: block;
+    }
+    .btn{
+      font-size: 0.7rem;
+    }
   }
-  .barra__derecha{
-    clear: left;
-    width: 100%;
-  }
-  .ingresatexto{
-    display: none;
-  }
-  .principal{
-    width: 100%;
-  }
-  .advertencia{
-    font-size: 0.8rem;
-    display: block;
-  }
-  .btn{
-    font-size: 0.7rem;
-  }
-}
