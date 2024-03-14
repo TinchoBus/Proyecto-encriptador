@@ -1,0 +1,89 @@
+```````````````
+
+Si necesitas referencia de páginas de imágenes gratuitas de alta resolución, te dejo algunas opciones que puedes verificar:
+Free Images
+Pixabay
+Freepik
+Morguefile
+
+
+https://www.aluracursos.com/blog/como-construir-un-portafolio-de-design?utm_source=gnarus&utm_medium=timeline
+
+
+https://blog.hubspot.es/sales/escribir-recomendaciones-linkedin
+
+https://www.aluracursos.com/blog/tecnica-pomodoro-gestiona-tu-tiempo-con-sencillez
+
+https://www.aluracursos.com/blog/5-formas-de-ayudarte-a-crear-mejores-habitos
+
+https://app.aluracursos.com/formacion-programacion-primeros-pasos-grupo6-one
+
+
+https://codigofacilito.com/cursos/reto-python.
+
+https://codigofacilito.com/usuarios/mis_cursos#
+
+https://codigofacilito.com/videos/estructuras-de-control (ultimo)
+
+C:\Users\Martb\OneDrive\Escritorio\practicas de  Phyton\Reto 1
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Contacto- BARBERIA CREACION DE Tupac's Enterprise</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        </head>
+
+            <body>
+                <header>
+                   
+                   
+                    <div class="caja">
+
+                        <h1> <img src="imagenes/logo.png"></h1>
+                    
+                    <nav>
+                        <ul>
+                            <li> <a href="index.html"> Home </a> </li>
+                            <li><a href="productos.html">productos</a></li>
+                            <li><a href="contacto.html">Contacto</a</li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+                </header>
+                <main>
+                    <form>
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido">
+
+                         <label for="correoelectronico"> Correo Electronico</label>   
+                        <input type="text" id="correoelectronico">
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono">
+
+                        <input type="submit" value="Enviar formulario">
+                    </form>
+                </main>
+
+                <footer>
+                    <img src="imagenes/logo-blanco.png">
+                    <p class="copyrigth"> &copy; 2024-Copyrigth Tupac´s Enterprise </p>
+                </footer>
+
+
+            </body>
+
+</html>
